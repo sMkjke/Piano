@@ -1,0 +1,65 @@
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: green;
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+
+kbd {
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.white-keys kbd {
+    padding-top: 120px;
+    background-color: white;
+    border: 3px solid black;
+    margin-left: -5px;
+    height: 150px;
+    width: 40px;
+}
+
+.black-keys kbd {
+    color: white;
+    padding-top: 70px;
+    background-color: black;
+    margin-left: -5px;
+    height: 100px;
+    width: 30px;
+    position: relative;
+    top: -273px;
+}
+
+#W {
+    right: 53px;
+}
+
+#E {
+    right: 38px;
+}
+
+#T {
+    right: -22px;
+}
+
+#Y {
+    right: -38px;
+}
+
+#U {
+    right: -54px;
+}
+
+
+.container {
+    margin-top: 10%;
+    text-align: center;
+}
